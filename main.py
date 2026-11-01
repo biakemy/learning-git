@@ -1,5 +1,22 @@
+livros = []
+
 def cadastrar():
-    pass
+    print("\n--- Cadastro de Livro ---")
+    titulo = input("Digite o título do livro: ")
+    autor = input("Digite o autor do livro: ")
+    ano = input("Digite o ano de publicação: ")
+    
+    # Cria o dicionário representando o livro
+    livro = {
+        "titulo": titulo,
+        "autor": autor,
+        "ano": ano,
+        "status": "Disponível"
+    }
+    
+    # Adiciona o livro à lista global
+    livros.append(livro)
+    print(f"Livro '{titulo}' cadastrado com sucesso!")
 
 def listar():
     pass
@@ -26,7 +43,6 @@ def main():
         opcao = input("Escolha uma opção (1-6): ")
         
         if opcao == '1':
-            print("Entrando no cadastro...")
             cadastrar()
         elif opcao == '2':
             print("Entrando na listagem...")
