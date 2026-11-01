@@ -1,0 +1,32 @@
+[
+    {
+        "titulo": "Correntes",
+        "autor": "Olga Tokarczuk",
+        "ano": "2007",
+        "disponivel": "Sim"
+    },
+    {
+        "titulo": "O Livro das Ignorãças",
+        "autor": "Manoel de Barros",
+        "ano": "1993",
+        "disponivel": "Sim"
+    },
+    {
+        "titulo": "A Paixão segundo G.H.",
+        "autor": "Clarice Lispector",
+        "ano": "1964",
+        "disponivel": "Sim"
+    },
+    {
+        "titulo": "Ponciá Vicêncio",
+        "autor": "Conceição Evaristo",
+        "ano": "2003",
+        "disponivel": "Sim"
+    },
+    {
+        "titulo": "Quarto de Despejo",
+        "autor": "Carolina Maria de Jesus",
+        "ano": "1960",
+        "disponivel": "Sim"
+    }
+]
